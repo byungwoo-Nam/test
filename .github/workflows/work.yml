@@ -15,6 +15,6 @@ jobs:
 
     steps:
       - name: work step
-        uses: ./.github/actions/slackSend
+        uses: ../.github/actions/slackSend
         with:
           status: true
