@@ -8,7 +8,7 @@ inputs:
 
 runs:
   using: "composite"
-    steps:
-      - name: slack step
-	run: |
-	  curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
+  steps:
+    - name: slack step
+      run: |
+      curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
