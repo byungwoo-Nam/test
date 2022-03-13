@@ -16,5 +16,5 @@ jobs:
         if: always()
         uses: ./.github/actions/slackSend
         with:
-	  status: ${{job.status}}
-	  slackURL: ${{ secrets.TEST }}
+	status: ${{job.status}}
+	slackURL: ${{ secrets.TEST }}
