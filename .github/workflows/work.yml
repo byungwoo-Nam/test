@@ -8,13 +8,8 @@ on:
 jobs:
   Work:
     runs-on: ubuntu-latest
-    
-    strategy:
-      matrix:
-        node-version: [12.x]
-
     steps:
-	- uses: actions/checkout@v1
+      - uses: actions/checkout@v1
       - name: work step
         uses: ./.github/actions/slackSend
         with:
