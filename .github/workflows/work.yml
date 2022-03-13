@@ -3,7 +3,7 @@ name: work
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   Slack Send:
