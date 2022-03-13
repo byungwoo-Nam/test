@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  Slack Send:
+  Work:
     runs-on: ubuntu-latest
     
     strategy:
