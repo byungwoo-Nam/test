@@ -13,4 +13,4 @@ jobs:
       - name: work step
         uses: ./.github/actions/slackSend
         with:
-          status: true
+          status: ${{job.status}}
