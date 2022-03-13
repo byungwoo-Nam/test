@@ -1,4 +1,4 @@
-name: 'Slack Send'
+name: slackSend
 
 inputs:
   status:
@@ -8,6 +8,7 @@ inputs:
 
 runs:
   using: "composite"
-  steps:
-    - run: curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
-      shell: bash
+    steps:
+      - name: slack step
+	run: |
+	  curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
