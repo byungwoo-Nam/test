@@ -1,0 +1,19 @@
+name: work
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - name: Slack
+        run: |
+          curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
