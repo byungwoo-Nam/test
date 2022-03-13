@@ -17,3 +17,4 @@ jobs:
         uses: ./.github/actions/slackSend
         with:
           status: ${{job.status}}
+	  slackURL: ${{ secrets.TEST }}

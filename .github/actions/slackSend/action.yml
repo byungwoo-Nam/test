@@ -5,13 +5,13 @@ inputs:
     type: boolean
     required: false
     default: false
+  slackURL:
+    required: true
 
 runs:
   using: "composite"
   steps:
     - name: slack step
       shell: bash
-      env:
-        slackURL: ${{ secrets.TEST }}
       run: |
-        curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, ${{ inputs.status }} ${slackURL} World!"}' https://hooks.slack.com/services/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
+        curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, ${{ inputs.status }} ${{ inputs.slackURL }} World!"}' https://hooks.slack.com/services/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
