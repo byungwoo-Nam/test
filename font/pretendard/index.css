@@ -12,28 +12,28 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard';
 	font-weight: 700;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Bold.woff') format('woff');
+	src: url('Pretendard-Bold.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 400;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Regular.woff') format('woff');
+	src: url('Pretendard-Regular.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 300;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Light.woff') format('woff');
+	src: url('Pretendard-Light.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 100;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Thin.woff') format('woff');
+	src: url('Pretendard-Thin.woff') format('woff');
 }
 
 /***************** 한글 *****************/
@@ -41,7 +41,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-KR';
 	font-weight: 700;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Bold.woff') format('woff');
+	src: url('Pretendard-Bold.woff') format('woff');
 	unicode-range: U+AC00–D7AF;
 }
 
@@ -49,7 +49,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-KR';
 	font-weight: 400;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Regular.woff') format('woff');
+	src: url('Pretendard-Regular.woff') format('woff');
 	unicode-range: U+AC00–D7AF;
 }
 
@@ -57,7 +57,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-KR';
 	font-weight: 300;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Light.woff') format('woff');
+	src: url('Pretendard-Light.woff') format('woff');
 	unicode-range: U+AC00–D7AF;
 }
 
@@ -65,7 +65,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-KR';
 	font-weight: 100;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Thin.woff') format('woff');
+	src: url('Pretendard-Thin.woff') format('woff');
 	unicode-range: U+AC00–D7AF;
 }
 
@@ -75,7 +75,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-EN';
 	font-weight: 700;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Bold.woff') format('woff');
+	src: url('Pretendard-Bold.woff') format('woff');
 	unicode-range: U+0041-005A, U+0061-007A;
 }
 
@@ -83,7 +83,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-EN';
 	font-weight: 400;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Regular.woff') format('woff');
+	src: url('Pretendard-Regular.woff') format('woff');
 	unicode-range: U+0041-005A, U+0061-007A;
 }
 
@@ -91,7 +91,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-EN';
 	font-weight: 300;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Light.woff') format('woff');
+	src: url('Pretendard-Light.woff') format('woff');
 	unicode-range: U+0041-005A, U+0061-007A;
 }
 
@@ -99,7 +99,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-EN';
 	font-weight: 100;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Thin.woff') format('woff');
+	src: url('Pretendard-Thin.woff') format('woff');
 	unicode-range: U+0041-005A, U+0061-007A;
 }
 
@@ -108,7 +108,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-NUM';
 	font-weight: 700;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Bold.woff') format('woff');
+	src: url('Pretendard-Bold.woff') format('woff');
 	unicode-range: U+0030-0039;
 }
 
@@ -116,7 +116,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-NUM';
 	font-weight: 400;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Regular.woff') format('woff');
+	src: url('Pretendard-Regular.woff') format('woff');
 	unicode-range: U+0030-0039;
 }
 
@@ -124,7 +124,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-NUM';
 	font-weight: 300;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Light.woff') format('woff');
+	src: url('Pretendard-Light.woff') format('woff');
 	unicode-range: U+0030-0039;
 }
 
@@ -132,7 +132,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-NUM';
 	font-weight: 100;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Thin.woff') format('woff');
+	src: url('Pretendard-Thin.woff') format('woff');
 	unicode-range: U+0030-0039;
 }
 
@@ -141,7 +141,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-CHAR';
 	font-weight: 700;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Bold.woff') format('woff');
+	src: url('Pretendard-Bold.woff') format('woff');
 	unicode-range: U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
 }
 
@@ -149,7 +149,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-CHAR';
 	font-weight: 400;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Regular.woff') format('woff');
+	src: url('Pretendard-Regular.woff') format('woff');
 	unicode-range: U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
 }
 
@@ -157,7 +157,7 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-CHAR';
 	font-weight: 300;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Light.woff') format('woff');
+	src: url('Pretendard-Light.woff') format('woff');
 	unicode-range: U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
 }
 
@@ -165,6 +165,6 @@ http://scripts.sil.org/OFL
 	font-family: 'Pretendard-CHAR';
 	font-weight: 100;
 	font-display: swap;
-	src: url('https://byungwoo-nam.github.io/test/font/Pretendard-Thin.woff') format('woff');
+	src: url('Pretendard-Thin.woff') format('woff');
 	unicode-range: U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
 }
