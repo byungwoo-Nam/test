@@ -19,7 +19,7 @@ runs:
         else
           MSG="디플로이 실패 :rotating_light:"
         fi
-
-	DATA="{\"text\":\"${MSG}\"}"
+        
+        DATA="{\"text\":\"${MSG}\"}"
 
         curl -X POST -H 'Content-type: application/json' --data "${DATA}" https://hooks.slack.com/services/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
