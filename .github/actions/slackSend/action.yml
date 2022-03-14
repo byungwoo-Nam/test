@@ -20,4 +20,4 @@ runs:
           MSG="디플로이 실패 :rotating_light:"
         fi
 
-        curl -X POST -H 'Content-type: application/json' --data '{"text":"${MSG} ${{ inputs.slackURL }}"}' https://hooks.slack.com/services/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
+        curl -X POST -H 'Content-type: application/json' --data '{"text": ${MSG}}' https://hooks.slack.com/services/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
