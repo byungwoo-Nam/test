@@ -15,11 +15,11 @@ runs:
       shell: bash
       run: |
         if [ "${{ inputs.status }}" = "success" ]; then
-          MSG="ÀüÃ¼ ºê·£µå µğÇÃ·ÎÀÌ ¼º°ø :+1:"
+          MSG="ì „ì²´ ë¸Œëœë“œ ë””í”Œë¡œì´ ì„±ê³µ :+1:"
         else
-          MSG="µğÇÃ·ÎÀÌ ½ÇÆĞ :rotating_light:"
+          MSG="ë””í”Œë¡œì´ ì‹¤íŒ¨ :rotating_light:"
         fi
         
         DATA="{\"text\":\"${MSG}\"}"
 
-        curl -X POST -H 'Content-type: application/json; charset=euc-kr' --data "${DATA}" https://hooks.slack.com/services/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
+        curl -X POST -H 'Content-type: application/json' --data "${DATA}" https://hooks.slack.com/services/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
