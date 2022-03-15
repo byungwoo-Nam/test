@@ -7,7 +7,7 @@ This license is copied below, and is also available with a FAQ at:
 http://scripts.sil.org/OFL
 */
 
-/***************** 기본 *****************/
+/***************** 기본 / 한글 *****************/
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 700;
@@ -35,40 +35,6 @@ http://scripts.sil.org/OFL
 	font-display: swap;
 	src: url('Pretendard-Thin.woff') format('woff');
 }
-
-/***************** 한글 *****************/
-@font-face {
-	font-family: 'Pretendard-KR';
-	font-weight: 700;
-	font-display: swap;
-	src: url('Pretendard-Bold.woff') format('woff');
-	unicode-range: U+AC00–D7AF;
-}
-
-@font-face {
-	font-family: 'Pretendard-KR';
-	font-weight: 400;
-	font-display: swap;
-	src: url('Pretendard-Regular.woff') format('woff');
-	unicode-range: U+AC00–D7AF;
-}
-
-@font-face {
-	font-family: 'Pretendard-KR';
-	font-weight: 300;
-	font-display: swap;
-	src: url('Pretendard-Light.woff') format('woff');
-	unicode-range: U+AC00–D7AF;
-}
-
-@font-face {
-	font-family: 'Pretendard-KR';
-	font-weight: 100;
-	font-display: swap;
-	src: url('Pretendard-Thin.woff') format('woff');
-	unicode-range: U+AC00–D7AF;
-}
-
 
 /***************** 영문 *****************/
 @font-face {
