@@ -1,4 +1,130 @@
+@import url('alegreya/index.css');
+@import url('barlowSemiCondensed/index.css');
+@import url('bebasNeue/index.css');
+@import url('cinzel/index.css');
+@import url('cormorantGaramond/index.css');
+@import url('encodeSans/index.css');
+@import url('hangeulNuri/index.css');
+@import url('hind/index.css');
+@import url('iropkeBatang/index.css');
+@import url('jejuGothic/index.css');
+@import url('jejuMyeongjo/index.css');
+@import url('lexendPeta/index.css');
 @import url('nanumBarunGothic/index.css');
+@import url('nanumSquareRound/index.css');
+@import url('notoSans/index.css');
+@import url('notoSerif/index.css');
+@import url('oswald/index.css');
+@import url('playfairDisplay/index.css');
 @import url('pretendard/index.css');
 @import url('quicksand/index.css');
 @import url('raleway/index.css');
+@import url('roboto/index.css');
+@import url('sCoreDream/index.css');
+@import url('spaceMono/index.css');
+@import url('spoqaHanSans/index.css');
+@import url('texGyreCursor/index.css');
+
+.font-alegreya{
+	font-family: 'Alegreya', 'sans-serif';
+}
+
+.font-barlowSemiCondensed{
+	font-family: 'BarlowSemiCondensed', 'sans-serif';
+}
+
+.font-bebasNeue{
+	font-family: 'BebasNeue', 'sans-serif';
+}
+
+.font-cinzel{
+	font-family: 'Cinzel', 'sans-serif';
+}
+
+.font-cormorantGaramond{
+	font-family: 'CormorantGaramond', 'sans-serif';
+}
+
+.font-encodeSans{
+	font-family: 'EncodeSans', 'sans-serif';
+}
+
+.font-hangeulNuri{
+	font-family: 'HangeulNuri', 'sans-serif';
+}
+
+.font-hind{
+	font-family: 'Hind', 'sans-serif';
+}
+
+.font-iropkeBatang{
+	font-family: 'IropkeBatang', 'sans-serif';
+}
+
+.font-jejuGothic{
+	font-family: 'JejuGothic', 'sans-serif';
+}
+
+.font-jejuMyeongjo{
+	font-family: 'JejuMyeongjo', 'sans-serif';
+}
+
+.font-lexendPeta{
+	font-family: 'LexendPeta', 'sans-serif';
+}
+
+.font-nanumBarunGothic{
+	font-family: 'NanumBarunGothic', 'sans-serif';
+}
+
+.font-nanumSquareRound{
+	font-family: 'NanumSquareRound', 'sans-serif';
+}
+
+.font-notoSans{
+	font-family: 'NotoSans', 'sans-serif';
+}
+
+.font-notoSerif{
+	font-family: 'NotoSerif', 'sans-serif';
+}
+
+.font-oswald{
+	font-family: 'Oswald', 'sans-serif';
+}
+
+.font-playfairDisplay{
+	font-family: 'PlayfairDisplay', 'sans-serif';
+}
+
+.font-pretendard{
+	font-family: 'Pretendard', 'sans-serif';
+}
+
+.font-quicksand{
+	font-family: 'Quicksand', 'sans-serif';
+}
+
+.font-raleway{
+	font-family: 'Raleway', 'sans-serif';
+}
+
+.font-roboto{
+	font-family: 'Roboto', 'sans-serif';
+}
+
+.font-sCoreDream{
+	font-family: 'SCoreDream', 'sans-serif';
+}
+
+.font-spaceMono{
+	font-family: 'SpaceMono', 'sans-serif';
+}
+
+.font-spoqaHanSans{
+	font-family: 'SpoqaHanSans', 'sans-serif';
+}
+
+.font-texGyreCursor{
+	font-family: 'TexGyreCursor', 'sans-serif';
+}
